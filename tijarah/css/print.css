@@ -1,0 +1,22 @@
+/* Thermal receipt printing (80mm) */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #receipt-modal, #receipt-modal * {
+        visibility: visible;
+    }
+    #receipt-modal {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 80mm;
+        padding: 0;
+        margin: 0;
+        background: white;
+        color: black !important;
+    }
+    .no-print {
+        display: none !important;
+    }
+}
