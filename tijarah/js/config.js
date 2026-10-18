@@ -1,5 +1,5 @@
 // GOOGLE APPS SCRIPT WEB APP URL
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwDq65dsjZx_vhmsc650Vac5uSsm1Hmt_APg2nzNPUsMknxrJqwkactm1A16B0C4wb0/exec";
+const APPS_SCRIPT_URL = "YOUR_GOOGLE_APPS_SCRIPT";
 
 const SECURITY_REG_CODE = "AT-TIJARAH2023";
 const shoeSizes = {
